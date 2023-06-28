@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="pt-3 text-gray-600 body-font">
+      <div
+        class="container justify-between mx-auto flex flex-wrap p-5 flex-row items-center"
+      >
+        <a
+          href="#"
+          class="flex title-font font-medium items-center text-gray-900 mb-0"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            viewBox="0 0 48 48"
+          >
+            <mask id="ipTShopping0">
+              <g fill="none">
+                <path fill="#555" d="M39 32H13L8 12h36l-5 20Z" />
+                <path
+                  stroke="#fff"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="4"
+                  d="M3 6h3.5L8 12m0 0l5 20h26l5-20H8Z"
+                />
+                <circle
+                  cx="13"
+                  cy="39"
+                  r="3"
+                  stroke="#fff"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="4"
+                />
+                <circle
+                  cx="39"
+                  cy="39"
+                  r="3"
+                  stroke="#fff"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="4"
+                />
+              </g>
+            </mask>
+            <path
+              fill="currentColor"
+              d="M0 0h48v48H0z"
+              mask="url(#ipTShopping0)"
+            />
+          </svg>
+          <span class="ml-3 text-xl">Shopping Cart</span>
+        </a>
+        <nav
+          class="inline-flex items-center border-0 py-1 px-3 rounded text-base mt-0"
+        >
+          <a href="#" class="hover:text-gray-900"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="30"
+              height="30"
+              viewBox="0 0 24 24"
+            >
+              <g fill="none">
+                <path
+                  fill="currentColor"
+                  d="M4 9h16l-.835 9.181A2 2 0 0 1 17.174 20H6.826a2 2 0 0 1-1.991-1.819L4 9Z"
+                  opacity=".16"
+                />
+                <path
+                  stroke="currentColor"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 9h16l-.835 9.181A2 2 0 0 1 17.174 20H6.826a2 2 0 0 1-1.991-1.819L4 9Z"
+                />
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-width="2"
+                  d="M8 11V8a4 4 0 1 1 8 0v3"
+                />
+              </g>
+            </svg>
+          </a>
+        </nav>
+      </div>
+    </header>
+    <!-- Body -->
+    <div>
+      <section class="text-gray-600 body-font">
+        <div class="container px-5 pb-24 pt-10 mx-auto">
+          <div class="flex flex-wrap -m-4">
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img
+                  alt="Jalepeno Spce"
+                  class="object-cover object-top w-full h-full block"
+                  src="Images/JalpenoSpice.jpg"
+                />
+              </a>
+              <div class="mt-4">
+                <h3
+                  class="text-gray-500 text-xs tracking-widest title-font mb-1"
+                >
+                  Medium
+                </h3>
+                <div class="flex justify-between text-black items-center">
+                  <h2 class="title-font text-lg font-medium">
+                    JalpenoSpice
+                  </h2>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    class="bg-gray-200 text-gray-500 hover:text-gray-700 rounded"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M18 10h-4V6a2 2 0 0 0-4 0l.071 4H6a2 2 0 0 0 0 4l4.071-.071L10 18a2 2 0 0 0 4 0v-4.071L18 14a2 2 0 0 0 0-4z"
+                    />
+                  </svg>
+                </div>
+                <p class="mt-1">₹1000.00</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img
+                  alt="Mint&herb"
+                  class="object-cover object-top w-full h-full block"
+                  src="Images/Mint&Herb.jpg"
+                />
+              </a>
+              <div class="mt-4">
+                <h3
+                  class="text-gray-500 text-xs tracking-widest title-font mb-1"
+                >
+                  Medium
+                </h3>
+                <div class="flex justify-between text-black items-center">
+                  <h2 class="title-font text-lg font-medium">
+                    Mint&Herb
+                </h2>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    class="bg-gray-200 text-gray-500 hover:text-gray-700 rounded"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M18 10h-4V6a2 2 0 0 0-4 0l.071 4H6a2 2 0 0 0 0 4l4.071-.071L10 18a2 2 0 0 0 4 0v-4.071L18 14a2 2 0 0 0 0-4z"
+                    />
+                  </svg>
+                </div>
+                <p class="mt-1">₹758.00</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img
+                  alt="Marghereta"
+                  class="object-cover object-center w-full h-full block"
+                  src="Images/Marghereta.jpg"
+                />
+              </a>
+              <div class="mt-4">
+                <h3
+                  class="text-gray-500 text-xs tracking-widest title-font mb-1"
+                >
+                  Medium
+                </h3>
+                <div class="flex justify-between text-black items-center">
+                  <h2 class="title-font text-lg font-medium">
+                    Marghereta
+                </h2>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    class="bg-gray-200 text-gray-500 hover:text-gray-700 rounded"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M18 10h-4V6a2 2 0 0 0-4 0l.071 4H6a2 2 0 0 0 0 4l4.071-.071L10 18a2 2 0 0 0 4 0v-4.071L18 14a2 2 0 0 0 0-4z"
+                    />
+                  </svg>
+                </div>
+                <p class="mt-1">₹599.00</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img
+                  alt="OliveFiest"
+                  class="object-cover object-top w-full h-full block"
+                  src="Images/OliveFiest.jpg"
+                />
+              </a>
+              <div class="mt-4">
+                <h3
+                  class="text-gray-500 text-xs tracking-widest title-font mb-1"
+                >
+                  Medium
+                </h3>
+                <div class="flex justify-between text-black items-center">
+                  <h2 class="title-font text-lg font-medium">
+                    OliveFiest
+                </h2>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    class="bg-gray-200 text-gray-500 hover:text-gray-700 rounded"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M18 10h-4V6a2 2 0 0 0-4 0l.071 4H6a2 2 0 0 0 0 4l4.071-.071L10 18a2 2 0 0 0 4 0v-4.071L18 14a2 2 0 0 0 0-4z"
+                    />
+                  </svg>
+                </div>
+                <p class="mt-1">₹1299.00</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img
+                  alt="Pepperoni"
+                  class="object-cover object-bottom w-full h-full block"
+                  src="Images/Pepperoni.avif"
+                />
+              </a>
+              <div class="mt-4">
+                <h3
+                  class="text-gray-500 text-xs tracking-widest title-font mb-1"
+                >
+                  Medium
+                </h3>
+                <div class="flex justify-between text-black items-center">
+                  <h2 class="title-font text-lg font-medium">Pepperoni</h2>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    class="bg-gray-200 text-gray-500 hover:text-gray-700 rounded"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M18 10h-4V6a2 2 0 0 0-4 0l.071 4H6a2 2 0 0 0 0 4l4.071-.071L10 18a2 2 0 0 0 4 0v-4.071L18 14a2 2 0 0 0 0-4z"
+                    />
+                  </svg>
+                </div>
+                <p class="mt-1">₹899.00</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img
+                  alt="Veggiie Delight"
+                  class="object-cover object-center w-full h-full block"
+                  src="Images/VegDelight.jpeg"
+                />
+              </a>
+              <div class="mt-4">
+                <h3
+                  class="text-gray-500 text-xs tracking-widest title-font mb-1"
+                >
+                  Medium
+                </h3>
+                <div class="flex justify-between text-black items-center">
+                  <h2 class="title-font text-lg font-medium">
+                    Veggie Delight
+                </h2>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    class="bg-gray-200 text-gray-500 hover:text-gray-700 rounded"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M18 10h-4V6a2 2 0 0 0-4 0l.071 4H6a2 2 0 0 0 0 4l4.071-.071L10 18a2 2 0 0 0 4 0v-4.071L18 14a2 2 0 0 0 0-4z"
+                    />
+                  </svg>
+                </div>
+                <p class="mt-1">₹999.00</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+              <a class="block relative h-48 rounded overflow-hidden">
+                <img
+                  alt="Veg ExtraVaganza"
+                  class="object-cover object-center w-full h-full block"
+                  src="Images/VegExtraVag.jpg"
+                />
+              </a>
+              <div class="mt-4">
+                <h3
+                  class="text-gray-500 text-xs tracking-widest title-font mb-1"
+                >
+                  Medium
+                </h3>
+                <div class="flex justify-between text-black items-center">
+                  <h2 class="title-font text-lg font-medium">
+                    Veg ExtraVaganza
+                </h2>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    class="bg-gray-200 text-gray-500 hover:text-gray-700 rounded"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M18 10h-4V6a2 2 0 0 0-4 0l.071 4H6a2 2 0 0 0 0 4l4.071-.071L10 18a2 2 0 0 0 4 0v-4.071L18 14a2 2 0 0 0 0-4z"
+                    />
+                  </svg>
+                </div>
+                <p class="mt-1">₹1249.00</p>
+              </div>
+            </div>
+            <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+                <a class="block relative h-48 rounded overflow-hidden">
+                  <img
+                    alt="Veg ExtraVaganza"
+                    class="object-cover object-center w-full h-full block"
+                    src="Images/ChunkyChicken.jpg"
+                  />
+                </a>
+                <div class="mt-4">
+                  <h3
+                    class="text-gray-500 text-xs tracking-widest title-font mb-1"
+                  >
+                    Medium
+                  </h3>
+                  <div class="flex justify-between text-black items-center">
+                    <h2 class="title-font text-lg font-medium">
+                      Chunky Chicken
+                  </h2>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      class="bg-gray-200 text-gray-500 hover:text-gray-700 rounded"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M18 10h-4V6a2 2 0 0 0-4 0l.071 4H6a2 2 0 0 0 0 4l4.071-.071L10 18a2 2 0 0 0 4 0v-4.071L18 14a2 2 0 0 0 0-4z"
+                      />
+                    </svg>
+                  </div>
+                  <p class="mt-1">₹1249.00</p>
+                </div>
+              </div>
+              
+            
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
